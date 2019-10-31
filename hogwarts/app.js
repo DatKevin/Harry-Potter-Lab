@@ -59,3 +59,17 @@ container.removeChild(h4)
 storage.insertBefore(h4, document.querySelectorAll("li")[3])
 storage.removeChild(h4)
 container.insertBefore(h4, newWand)
+
+let reappear = function() {
+	for (let i = 0; i <= 2; i++) {
+		let secret =  document.querySelectorAll(".secret")[i]
+		secret.style.transition = "0.8s"
+		secret.style.opacity = 0.5
+	}
+}
+setTimeout(reappear, 2000)
+let leash = document.querySelectorAll(".badger")[1]
+leash.classList.add("cabbage")
+leash.classList.remove("cabbage")
+
+
