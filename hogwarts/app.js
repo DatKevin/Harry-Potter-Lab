@@ -47,3 +47,15 @@ for (let i = 1; i <= 3; i++) {
 }
 
 document.querySelectorAll("li")[4].className = "badger"
+
+container.removeChild(wand)
+storage.removeChild(document.querySelectorAll("li")[0])
+let newWand = document.createElement("h4")
+newWand.innerText = "Holly wand with Dragon Heartstring Core"
+container.insertBefore(newWand, storage)
+newWand.style.color = "indigo"
+
+container.removeChild(h4)
+storage.insertBefore(h4, document.querySelectorAll("li")[3])
+storage.removeChild(h4)
+container.insertBefore(h4, newWand)
