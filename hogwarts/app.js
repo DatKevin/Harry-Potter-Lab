@@ -72,4 +72,9 @@ let leash = document.querySelectorAll(".badger")[1]
 leash.classList.add("cabbage")
 leash.classList.remove("cabbage")
 
+let semester = document.querySelector("caption")
+semester.innerText = "Fall 2018"
 
+storage.prepend(document.createElement("li"))
+document.querySelectorAll("li")[0].innerText = "Butterbeer"
+storage.setAttribute("storage","chest")

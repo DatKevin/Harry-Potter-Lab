@@ -1,5 +1,6 @@
 body {
 	text-align: center;
+	background-color: gray;
 }
 
 .badger {
@@ -15,7 +16,7 @@ li {
 }
 
 table, th, td {
-	border: 1px solid gray;
+	border: 1px solid darkgray;
 	text-align: center;
 }
 
